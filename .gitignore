@@ -1,0 +1,27 @@
+# Ignore Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore Go cache and temporary files
+/go.sum
+/vendor/
+/*.mod
+*.log
+
+# Ignore IDE files
+
+# GoLand
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Custom file for quick code access
+/current
